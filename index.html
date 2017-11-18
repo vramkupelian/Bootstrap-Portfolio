@@ -9,14 +9,20 @@
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
     crossorigin="anonymous">
 
+    <style>
+    body{
+        background-image: url(../Basic-Portfolio/assets/images/regal.jpg);
+    }
+    </style>
+
 </head>
 
 <body>
 <!-- Container Div -->
-<div class="container">
+<div class="container" style="max-width:960px;">
 
         <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="max-width:960px;">
             
                   <!-- Place Fluid Container in Navbar -->
                   <div class="container-fluid">
@@ -96,17 +102,18 @@
             <!-- a Bootstrap row with columns -->
             <div class="row" style="margin:auto;">
         
-              <!-- At large+ screens takes up half width (6/12) -->
-              <div class="col-lg-8" style="border: 1px solid #cccccc; max-width:650px; margin:auto; overflow:auto;">
+              <!-- about me box -->
+              <div class="col-lg-8" style="border: 1px solid #cccccc; max-width:650px; margin:auto; overflow:auto; background-color:#ffffff;">
         
                 <!-- centered image with thumbnail rules -->
-                <img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/vram.jpg" alt="vramphoto" width="25%" style="float:left;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, molestiae modi accusantium animi magnam veniam, impedit asperiores sint consequuntur debitis fugit quibusdam dolor, iusto sed porro ab minus voluptatibus amet.</p>
+                <img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/vram.jpg" alt="vramphoto" width="25%" style="float:left;margin:15px;">
+                <p style="margin: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, molestiae modi accusantium animi magnam veniam, impedit asperiores sint consequuntur debitis fugit quibusdam dolor, iusto sed porro ab minus voluptatibus amet.</p>
               </div>
         
-              <!-- At large+ screens takes up half width (6/12) -->
-              <div class="col-lg-3" style="border: 1px solid #cccccc; left:40px; max-width:270px; overflow:auto;">
-                <a href="https://github.com/vramkupelian"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/GitHub-Logo.png" alt="GitHub" width="25%" style="float:left; margin:10px; max-width:25%;"></a>
+              <!-- Connect with me box -->
+              <div class="col-lg-3" style="border: 1px solid #cccccc; max-width:270px; overflow:auto;background-color:#ffffff;float:right;">
+                  <h2 style="color:#4aaaa5;"> </h2>
+                <a href="https://github.com/vramkupelian"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/GitHub-Logo.png" alt="GitHub" width="25%" style="float:left; margin:10px; max-width:25%; left:25px;"></a>
                 <a href="https://stackoverflow.com/users/8582203/vram-kupelian"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/stack-overflow-logo.png" alt="Stack Overflow" width="25%" style="float:left;margin-top:10px; max-width:25%;"></a>
                 <a href="https://www.linkedin.com/in/vram-kupelian-324a0856"><img class="img thumbnail center-block" src="../Basic-Portfolio/assets/images/in-logo.jpg" alt="LinkedIn" width="25%" style="float:left; margin:10px; max-width:25%;"></a>
               </div>
